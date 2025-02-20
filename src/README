@@ -1,0 +1,25 @@
+Nume Prenume:OPREA HORATIU ALEXANDRU
+Grupa: 322CC
+Gradul de dificultate: Mediu
+Timpul alocat rezolvarii temei: Aproape o saptamana
+Decrierea dificultatii:
+    Implementarea jocului a constat într-o serie de provocări legate de crearea unei interfețe grafice utilizând Swing,
+gestionarea logicii jocului și integrarea funcționalităților într-un mod coerent.
+Dificultățile majore au apărut în implementarea unui sistem eficient de interacțiune cu utilizatorul
+și gestionarea resurselor vizuale într-un mod dinamic. De asemenea, coordonarea diferitelor componente ale aplicației,
+dar și asigurarea unei experiențe de utilizare fluente a fost o provocare.
+
+Flow-ul jocului:
+    Prima data, apare o pagina de log in cu 2 campuri, pentru email si parola. Acestea sunt salvate intr-un fisier .json
+si parmit utilizatorului sa se conecteze la un anumit cont. Odada conectat, o noua fereastra apare uc 3 butoane, prin care
+player-ul isi va alege personajul, selectand-ul prin click. Urmeaza o interactiune cu terminalul, prin care sea alege
+modul jocului, play sau test. Odata inceput jocul, se genereaza un grid in are player-ul are culoarea verde, iar celulele
+nevizitate sunt albe. Odata vizitate, cele vide devin gri, iar celulele speciale: sanctuar si inamic, devin albasta si rosie.
+Player-ul se poate misca pe mapa cu ajutorul butoanelor de sub grid: Up, Down, Left, Right. De asemenes, are si un buton
+de Quit, cu care poate parasii jocul in orice moment. Odata ce ajunge pe o celula de tip enemy, se descide o noua fereastra
+de tip battle. Sunt puse in campuri statusul player-ului si al inamicului, cum ar fi viata si mana. In tre aceste coloane
+exita 2 butoane: attack si cast spell. Cel de spell, dechide o noua ferestra, sub folma unei liste de spell-uri, din care
+player-ul isi alege atacul. Pe parcursul luptei, fiecare miscare a player-ului, repectiv a inamicului este prevazuta
+intr-un chenar text, din josul paginii. In momentul cand player-ul este infrant, apare o noua ferestra de tip Game Over in care sunt
+stat-urile acelui game, inclusiv un kill count. In plus, in terminal apara si informatii aditionale, cum ar fi mutarile
+posibile din orice pozitie a mapei sau informatii despre lupta, cum ar fii iminitati la spell-uri.
